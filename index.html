@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="index.css">
+<title>Time Reminder</title>
+</head>
+<body>
+   <div class="container1">
+    <button class="accordion" id="accHistory">Alarm History</button>
+    <div class="displayCon">
+       <P class="alarm-history">Alarm History</P>
+   <div class="display">
+    
+   </div>
+    </div>
+   </div>
+<div class="container">
+<div class="container-inner">
+<div class="box1">
+<h3 class="current-time">Current Time: <span id="currentTime"></span></h3>
+<input type="number" id="hours" placeholder="Hours"> <span id="dott">:</span>
+<input type="number" id="minutes" placeholder="Minutes"> <br><br>
+<div class="show">
+<audio src="picture/mixkit-digital-clock-digital-alarm-buzzer-992.wav" style="display: none;" id="audio" controls loop></audio>
+<!-- <audio src="picture/alarm-clock-svgrepo-com.svg" style="display: none;" id="audio" controls loop></audio> -->
+<div class="container1">
+<h4 id="showMe"></h4>
+</div>
+<div class="reset">
+<button onclick="snoozeBtn()" class="setTime" id="Set1">Snooze</button>
+<button onclick="cancelDismiss()" class="cancelTime" id="Cancel1">Dismiss</button>
+</div>
+</div>
+<div class="notes1">
+<textarea id="note" placeholder="Enter your note here"></textarea> <br><br>
+<button onclick="setReminder()" class="setTime" id="Set">Set Reminder</button>
+<!-- <button onclick="cancelReminder()" class="cancelTime" id="Cancel">Cancel Reminder</button> -->
+</div>
+</div>
+<div class="box2">
+<div class="box2-inner1">
+<h2 class="box2-text">TIME REMINDER</h2>
+<span class="box2-text-inner">ALARM</span>
+</div>
+<div class="box2Inner2">
+<img src="picture/alarm-clock-isolated-on-white-260nw-306104345-removebg-preview.png" alt="">
+</div>
+</div>
+</div>
+</div>
+</body>
+<script src="index.js"></script>
+</body>
+</html>
