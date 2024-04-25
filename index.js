@@ -59,7 +59,7 @@ function setReminder() {
 function seen(arr) {
     display.innerHTML = "";
     arr.forEach(function(el, i) {
-        display.innerHTML += `<h4 id="pop" >${el.hour}:${el.minute}-- ${el.notes}  <button onclick="deleteBtn(${i})" id="BtnInner" class="BtnInner">Delete</button> <button onclick="snoozeBtn('${el.notes}')" id="Snooze" class="BtnInner">Snooze</button></h4>`;
+        display.innerHTML += `<h4 id="pop" >${el.hour}:${el.minute}-- ${el.notes}  <button onclick="deleteBtn(${i})" id="BtnInner" class="BtnInner">Delete</button> <button onclick="snoozeBtn('${el.notes}')" id="Snooze" class="BtnInner1">Snooze</button></h4>`;
     });
 }
 

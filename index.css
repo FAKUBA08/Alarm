@@ -227,6 +227,18 @@
     .BtnInner{
     color: white;
     }
+    #BtnInner1{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: .4rem;
+    background-color: red;
+    width: 30%;
+
+    }
+    .BtnInner1{
+    color: white;
+    }
     #pop{
     background-color:#f4f4f45e ;
     position: relative;
@@ -348,16 +360,10 @@
     z-index: 1000;
     }
     }
-    @media only screen and (max-width:395px){
-    .container-inner {
-    overflow: visible;
-
+    @media only screen and (max-width:667px){
+    .BtnInner1{
+   margin-top: .8rem;
     }
-    .displayCon{
-    width: 86rem;
-    }
-
-
     }
     @media only screen and (max-width:556px){
     .container-inner {
@@ -368,13 +374,6 @@
     width: 50rem;
     }
 
-
-    }
-    @media only screen and (max-width:529px){
-    .container-inner {
-    overflow: visible;
-
-    }
     .container1{
     margin-bottom: .5rem;
     max-width: 30rem;
@@ -392,6 +391,25 @@
 
     .cancelTime1{
     width: 42%;
+    }
+    #BtnInner{
+    width: 38%;
+    }
+    #Snooze{
+    width: 38%;
+    }
+
+    }
+    @media only screen and (max-width:400px){
+    .displayCon{
+    width: 86rem;
+    }
+    .box2-text{
+    margin-top: 6rem;
+    overflow: visible;
+    }
+    .container{
+    width: 100%;
     }
 
 
